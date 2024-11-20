@@ -1,0 +1,11 @@
+[package]
+name = "supertux-mod-loader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dll-mod-loader = { version = "0.2.0" }
+
+[profile.release]
+lto = true
+opt-level = 3
